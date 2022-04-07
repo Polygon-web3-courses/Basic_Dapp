@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
+    <script src="/scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>SubBasement Greeter dApp</title>
+  </head>
+  <body>
+    <div class="App">
+      <div class="wallet-details">
+        <h2>Wallet details</h2>
+        <p class="wallet-address"></p>
+
+        <button class="connect-wallet" onclick="handleLinkWallet()">
+          Link wallet (you need to be on Rinkeby Test Network)
+        </button>
+      </div>
+      <div class="greeter-functions">
+        <h2>Greeter Functions</h2>
+        <h3>Get the current greeting</h3>
+        <button onclick="getGreetingFromGreeter()">
+          Get greeting (check the console)
+        </button>
+        <p class="greeting"></p>
+        <h3>Set a new greeting</h3>
+        <input name="new-greeting" type="text" class="new-greeting" />
+        <button onclick="setGreetingOnGreeter()">Set new greeting</button>
+      </div>
+    </div>
+  </body>
+</html>
