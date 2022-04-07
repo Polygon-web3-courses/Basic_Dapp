@@ -1,5 +1,7 @@
 body {
   font-family: "Press Start 2P", cursive;
+  text-align: center;
+  line-height: 2;
 }
 .App {
   display: flex;
@@ -39,7 +41,9 @@ input {
   font-family: "Press Start 2P", cursive;
   margin-bottom: 2rem;
 }
-
+.description {
+  padding-top: 5rem;
+}
 .show {
   display: flex;
 }

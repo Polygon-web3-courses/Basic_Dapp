@@ -108,7 +108,7 @@ async function setGreetingOnGreeter() {
 
   // get our new greeting from the input
   const newGreeting = document.querySelector(".new-greeting").value;
-
+  document.querySelector(".new-greeting").value = "";
   //remove the current greeting if its there
   document.querySelector(".greeting").innerHTML = "";
 
