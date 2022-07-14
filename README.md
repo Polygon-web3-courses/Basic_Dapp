@@ -1,3 +1,5 @@
+View a working version of this [here](https://verytrendysupersimpledapp.netlify.app/)
+
 # Greeter dApp using only hardhat (to deply) and ethers (to retrieve)
 
 ## Install dependancies
